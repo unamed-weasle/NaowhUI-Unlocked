@@ -83,7 +83,7 @@ I.installer = {
             PluginInstallFrame.SubTitle:SetText("WarpDeplete")
 
             if not NUI:IsAddOnEnabled("WarpDeplete") then
-                PluginInstallFrame.SubDesc1Title:SetText("Enable WarpDeplete to unlock this step")
+                PluginInstallFrame.Desc1:SetText("Enable WarpDeplete to unlock this step")
 
                 return
             end
@@ -99,7 +99,7 @@ I.installer = {
             PluginInstallFrame.SubTitle:SetText("Placeholder")
 
             --[[if not NUI:IsAddOnEnabled("WarpDeplete") then
-                PluginInstallFrame.SubDesc1Title:SetText("Enable WarpDeplete to unlock this step")
+                PluginInstallFrame.Desc1:SetText("Enable WarpDeplete to unlock this step")
 
                 return
             end]]
@@ -115,7 +115,7 @@ I.installer = {
             PluginInstallFrame.SubTitle:SetText("Placeholder")
 
             --[[if not NUI:IsAddOnEnabled("WarpDeplete") then
-                PluginInstallFrame.SubDesc1Title:SetText("Enable WarpDeplete to unlock this step")
+                PluginInstallFrame.Desc1:SetText("Enable WarpDeplete to unlock this step")
 
                 return
             end]]
