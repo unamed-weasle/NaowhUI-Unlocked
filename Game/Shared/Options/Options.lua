@@ -1,7 +1,7 @@
 local NUI = unpack(NaowhUI)
 local SE = NUI:GetModule("Setup")
 
-local InCombatLockdown, ReloadUI = ReloadUI, InCombatLockdown
+local InCombatLockdown = InCombatLockdown
 
 local function AreAddOnsEnabled()
     local addons = {
