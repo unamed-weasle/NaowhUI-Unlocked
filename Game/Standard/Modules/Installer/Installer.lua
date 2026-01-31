@@ -27,9 +27,9 @@ I.installer = {
             PluginInstallFrame.Option1:Show()
             PluginInstallFrame.Option1:SetScript("OnClick", function() SE:Setup("ElvUI", true) end)
             PluginInstallFrame.Option1:SetText("1440p")
-            PluginInstallFrame.Option2:Show()
+            --[[PluginInstallFrame.Option2:Show()
             PluginInstallFrame.Option2:SetScript("OnClick", function() SE:Setup("ElvUI", true, "1080p") end)
-            PluginInstallFrame.Option2:SetText("1080p (NYI)")
+            PluginInstallFrame.Option2:SetText("1080p (NYI)")]]
         end,
         [3] = function()
             PluginInstallFrame.SubTitle:SetText("BigWigs")
@@ -43,9 +43,9 @@ I.installer = {
             PluginInstallFrame.Option1:Show()
             PluginInstallFrame.Option1:SetScript("OnClick", function() SE:Setup("BigWigs", true) end)
             PluginInstallFrame.Option1:SetText("1440p")
-            PluginInstallFrame.Option2:Show()
+            --[[PluginInstallFrame.Option2:Show()
             PluginInstallFrame.Option2:SetScript("OnClick", function() SE:Setup("BigWigs", true, "1080p") end)
-            PluginInstallFrame.Option2:SetText("1080p (NYI)")
+            PluginInstallFrame.Option2:SetText("1080p (NYI)")]]
         end,
         [4] = function()
             PluginInstallFrame.SubTitle:SetText("Details")
@@ -59,9 +59,9 @@ I.installer = {
             PluginInstallFrame.Option1:Show()
             PluginInstallFrame.Option1:SetScript("OnClick", function() SE:Setup("Details", true) end)
             PluginInstallFrame.Option1:SetText("1440p")
-            PluginInstallFrame.Option2:Show()
+            --[[PluginInstallFrame.Option2:Show()
             PluginInstallFrame.Option2:SetScript("OnClick", function() SE:Setup("Details", true, "1080p") end)
-            PluginInstallFrame.Option2:SetText("1080p (NYI)")
+            PluginInstallFrame.Option2:SetText("1080p (NYI)")]]
         end,
         [5] = function()
             PluginInstallFrame.SubTitle:SetText("Plater")
@@ -75,9 +75,9 @@ I.installer = {
             PluginInstallFrame.Option1:Show()
             PluginInstallFrame.Option1:SetScript("OnClick", function() SE:Setup("Plater", true) end)
             PluginInstallFrame.Option1:SetText("1440p")
-            PluginInstallFrame.Option2:Show()
+            --[[PluginInstallFrame.Option2:Show()
             PluginInstallFrame.Option2:SetScript("OnClick", function() SE:Setup("Plater", true, "1080p") end)
-            PluginInstallFrame.Option2:SetText("1080p (NYI)")
+            PluginInstallFrame.Option2:SetText("1080p (NYI)")]]
         end,
         [6] = function()
             PluginInstallFrame.SubTitle:SetText("WarpDeplete")
@@ -91,9 +91,9 @@ I.installer = {
             PluginInstallFrame.Option1:Show()
             PluginInstallFrame.Option1:SetScript("OnClick", function() SE:Setup("WarpDeplete", true) end)
             PluginInstallFrame.Option1:SetText("1440p")
-            PluginInstallFrame.Option2:Show()
+            --[[PluginInstallFrame.Option2:Show()
             PluginInstallFrame.Option2:SetScript("OnClick", function() SE:Setup("WarpDeplete", true, "1080p") end)
-            PluginInstallFrame.Option2:SetText("1080p (NYI)")
+            PluginInstallFrame.Option2:SetText("1080p (NYI)")]]
         end,
         [7] = function()
             PluginInstallFrame.SubTitle:SetText("Placeholder")
