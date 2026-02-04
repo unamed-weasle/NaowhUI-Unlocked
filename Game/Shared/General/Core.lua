@@ -44,6 +44,4 @@ function NUI:Initialize()
 
         StaticPopup_Show("LoadProfiles")
     end
-
-    self:RegisterChatCommand("nui", "HandleChatCommand")
 end
