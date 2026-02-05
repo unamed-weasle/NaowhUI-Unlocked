@@ -6,7 +6,8 @@ local MediaType_STATUSBAR = LSM.MediaType.STATUSBAR
 
 LSM:Register(MediaType_FONT, "GothamNarrowUltra",       [[Interface\Addons\NaowhUI\Game\Shared\Media\Fonts\GothamNarrowUltra.ttf]],                           ruRU + western)
 LSM:Register(MediaType_FONT, "GothamNarrowUltra",       [[Interface\Addons\NaowhUI\Game\Shared\Media\Fonts\GothamNarrowUltraAsia.ttf]],                       koKR + zhCN + zhTW)
-LSM:Register(MediaType_FONT, "Naowh",                   [[Interface\Addons\NaowhUI\Game\Shared\Media\Fonts\Naowh.ttf]],                                       koKR + ruRU + zhCN + zhTW + western)
+LSM:Register(MediaType_FONT, "Naowh",                   [[Interface\Addons\NaowhUI\Game\Shared\Media\Fonts\Naowh.ttf]],                                       ruRU + western)
+LSM:Register(MediaType_FONT, "Naowh",                   [[Interface\Addons\NaowhUI\Game\Shared\Media\Fonts\NaowhAsia.ttf]],                                   koKR + zhCN + zhTW)
 
 LSM:Register(MediaType_STATUSBAR, "Melli",                  [[Interface\Addons\NaowhUI\Game\Shared\Media\Textures\Melli]])
 LSM:Register(MediaType_STATUSBAR, "NaowhDetails",           [[Interface\Addons\NaowhUI\Game\Shared\Media\Textures\NaowhDetails]])
