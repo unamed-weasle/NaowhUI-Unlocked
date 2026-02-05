@@ -29,7 +29,7 @@ I.installer = {
             PluginInstallFrame.Option1:SetText("1440p")
             --[[PluginInstallFrame.Option2:Show()
             PluginInstallFrame.Option2:SetScript("OnClick", function() SE:Setup("ElvUI", true, "1080p") end)
-            PluginInstallFrame.Option2:SetText("1080p (NYI)")]]
+            PluginInstallFrame.Option2:SetText("1080p")]]
         end,
         [3] = function()
             PluginInstallFrame.SubTitle:SetText("BigWigs")
@@ -45,9 +45,18 @@ I.installer = {
             PluginInstallFrame.Option1:SetText("1440p")
             --[[PluginInstallFrame.Option2:Show()
             PluginInstallFrame.Option2:SetScript("OnClick", function() SE:Setup("BigWigs", true, "1080p") end)
-            PluginInstallFrame.Option2:SetText("1080p (NYI)")]]
+            PluginInstallFrame.Option2:SetText("1080p")]]
         end,
         [4] = function()
+            PluginInstallFrame.SubTitle:SetText("Blizzard_EditMode")
+            PluginInstallFrame.Option1:Show()
+            PluginInstallFrame.Option1:SetScript("OnClick", function() SE:Setup("Blizzard_EditMode", true) end)
+            PluginInstallFrame.Option1:SetText("1440p")
+            --[[PluginInstallFrame.Option2:Show()
+            PluginInstallFrame.Option2:SetScript("OnClick", function() SE:Setup("Blizzard_EditMode", true, "1080p") end)
+            PluginInstallFrame.Option2:SetText("1080p")]]
+        end,
+        [5] = function()
             PluginInstallFrame.SubTitle:SetText("Details")
 
             if not NUI:IsAddOnEnabled("Details") then
@@ -61,9 +70,9 @@ I.installer = {
             PluginInstallFrame.Option1:SetText("1440p")
             --[[PluginInstallFrame.Option2:Show()
             PluginInstallFrame.Option2:SetScript("OnClick", function() SE:Setup("Details", true, "1080p") end)
-            PluginInstallFrame.Option2:SetText("1080p (NYI)")]]
+            PluginInstallFrame.Option2:SetText("1080p")]]
         end,
-        [5] = function()
+        [6] = function()
             PluginInstallFrame.SubTitle:SetText("Plater")
 
             if not NUI:IsAddOnEnabled("Plater") then
@@ -77,9 +86,9 @@ I.installer = {
             PluginInstallFrame.Option1:SetText("1440p")
             --[[PluginInstallFrame.Option2:Show()
             PluginInstallFrame.Option2:SetScript("OnClick", function() SE:Setup("Plater", true, "1080p") end)
-            PluginInstallFrame.Option2:SetText("1080p (NYI)")]]
+            PluginInstallFrame.Option2:SetText("1080p")]]
         end,
-        [6] = function()
+        [7] = function()
             PluginInstallFrame.SubTitle:SetText("WarpDeplete")
 
             if not NUI:IsAddOnEnabled("WarpDeplete") then
@@ -93,41 +102,9 @@ I.installer = {
             PluginInstallFrame.Option1:SetText("1440p")
             --[[PluginInstallFrame.Option2:Show()
             PluginInstallFrame.Option2:SetScript("OnClick", function() SE:Setup("WarpDeplete", true, "1080p") end)
-            PluginInstallFrame.Option2:SetText("1080p (NYI)")]]
-        end,
-        [7] = function()
-            PluginInstallFrame.SubTitle:SetText("Placeholder")
-
-            --[[if not NUI:IsAddOnEnabled("WarpDeplete") then
-                PluginInstallFrame.Desc1:SetText("Enable WarpDeplete to unlock this step")
-
-                return
-            end]]
-
-            PluginInstallFrame.Option1:Show()
-            PluginInstallFrame.Option1:SetScript("OnClick", function()end)
-            PluginInstallFrame.Option1:SetText("NYI")
-            PluginInstallFrame.Option2:Show()
-            PluginInstallFrame.Option2:SetScript("OnClick", function()end)
-            PluginInstallFrame.Option2:SetText("NYI")
+            PluginInstallFrame.Option2:SetText("1080p")]]
         end,
         [8] = function()
-            PluginInstallFrame.SubTitle:SetText("Placeholder")
-
-            --[[if not NUI:IsAddOnEnabled("WarpDeplete") then
-                PluginInstallFrame.Desc1:SetText("Enable WarpDeplete to unlock this step")
-
-                return
-            end]]
-
-            PluginInstallFrame.Option1:Show()
-            PluginInstallFrame.Option1:SetScript("OnClick", function()end)
-            PluginInstallFrame.Option1:SetText("NYI")
-            PluginInstallFrame.Option2:Show()
-            PluginInstallFrame.Option2:SetScript("OnClick", function()end)
-            PluginInstallFrame.Option2:SetText("NYI")
-        end,
-        [9] = function()
             PluginInstallFrame.SubTitle:SetText("Installation Complete")
             PluginInstallFrame.Desc1:SetText("You have completed the installation process")
             PluginInstallFrame.Desc2:SetText("Please click on 'Reload' to save your settings and reload your UI")
@@ -140,12 +117,11 @@ I.installer = {
         [1] = "Welcome",
         [2] = "ElvUI",
         [3] = "BigWigs",
-        [4] = "Details",
-        [5] = "Plater",
-        [6] = "WarpDeplete",
-        [7] = "Placeholder",
-        [8] = "Placeholder",
-        [9] = "Installation Complete"
+        [4] = "Blizzard_EditMode",
+        [5] = "Details",
+        [6] = "Plater",
+        [7] = "WarpDeplete",
+        [8] = "Installation Complete"
     },
     StepTitlesColor = {1, 1, 1},
     StepTitlesColorSelected = {0, 179/255, 1},
