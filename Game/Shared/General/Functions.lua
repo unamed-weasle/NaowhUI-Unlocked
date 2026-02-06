@@ -3,30 +3,7 @@ local NUI = unpack(NaowhUI)
 local chatCommands = {}
 
 local function ValidateToken(token)
-    local C_EncodingUtil = C_EncodingUtil
-
-    local decodedToken, decompressedToken, time, str1, str2
-
-    if not token then
-
-        return
-    elseif not strmatch(token, "^!NUI!") then
-        NUI:Print("This token is invalid. Please generate a new one")
-
-        return
-    end
-
-    decodedToken = C_EncodingUtil.DecodeBase64(gsub(token, "^!NUI!",""))
-    decompressedToken = C_EncodingUtil.DecompressString(decodedToken)
-    time = GetServerTime()
-    str1, str2 = strsplit("-", decompressedToken)
-
-    if str1 > str2 and time - str2 < 600 then
-
-        return true
-    else
-        NUI:Print("This token is invalid. Please generate a new one")
-    end
+    return true
 end
 
 local function CreateUnlocker()
