@@ -19,7 +19,7 @@ local function CreateUnlocker()
     frame:SetHeight(150)
 
     editbox = AceGUI:Create("EditBox")
-    editbox:SetLabel("Paste your token into the field below:")
+    editbox:SetLabel("Write any text. Doesn't matter this version is unlocked:")
     editbox:SetWidth(350)
     frame:AddChild(editbox)
 
